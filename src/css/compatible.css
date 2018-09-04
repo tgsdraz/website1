@@ -1,0 +1,55 @@
+.bg-four {
+    -webkit-background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%);
+    -moz-background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%);
+    -ms-background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%);
+    -o-background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%);
+    background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%);
+}
+
+/*项目案例-反面*/
+.single2-tran {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.single1-tran {
+    -webkit-transform: rotateY(0deg) translateZ(1px);
+    -moz-transform: rotateY(0deg) translateZ(1px);
+    -ms-transform: rotateY(0deg) translateZ(1px);
+    -o-transform: rotateY(0deg) translateZ(1px);
+    transform: rotateY(0deg) translateZ(1px);
+}
+
+.item-wrapper-trans0 {
+    -webkit-transition: transform 0.8s ease-in-out;
+    -moz-transition: transform 0.8s ease-in-out;
+    -ms-transition: transform 0.8s ease-in-out;
+    -o-transition: transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+}
+.item-wrapper-trans180 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    /* -webkit-transition: transform 0.8s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out; */
+    /* -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d; */
+}

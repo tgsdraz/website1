@@ -1,0 +1,371 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    body{
+        width: 100%;
+        height: 100%;
+        .wrapper{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url(../img/intro-bg.jpg) center center no-repeat;
+            background-size: cover;
+            .single-info{
+                position: absolute;
+                left: 2rem;
+                top: 2rem;
+                height: 5rem;
+                line-height: 5rem;
+                .avatar{
+                    display: inline-block;
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 50%;
+                    background: url(../img/tgs.jpg) center center no-repeat;
+                    background-size: cover;
+                }
+                .avatar:hover{
+                    border: 0.1rem solid red;
+                }
+                .single-name{
+                    position: relative;
+                    display: inline-block;
+                    margin-left: 1rem;
+                    height: 5rem;
+                    .name{
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        margin-top: -1.5rem;
+                        height: 3rem;
+                        line-height: 3rem;
+                        font-size: 2rem;
+                        color: #fff;
+                        padding: 0 1rem;
+                        font-family: '楷体';
+                    }
+                    .name:hover{
+                        border: 0.1rem solid yellow;
+                        border-radius: 0.5rem;
+                        background: #fff;
+                        color: red;
+
+                    }
+                    .text-16{
+                        margin-left: 8rem;
+                        color: #fff;
+                    }
+                }
+            }
+            .content-wrapper{
+                width: 100%;
+                height: 100%;
+                .item{
+                    width: 100%;
+                    height: 100%;
+                    background: transparent;
+                    text-align: center;
+                    line-height: 100%
+                }
+                .page-one{
+                    position: relative;
+                    .page-one-title{
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate3d(-50%,-50%,0);
+                        width: 70%;
+                        text-align: center;
+                        h1{
+                            font-size: 8rem;
+                            font-weight: 700;
+                            color: #fff;
+                            .page-one-text{
+                                color: #F4D03F;
+                                text-transform: uppercase;
+                            }
+                        }
+                        .single-word{
+                            font-size: 3rem;
+                            color: #fff;
+                        }
+                    }
+                    .page-down{
+                        position: absolute;
+                        left: 50%;
+                        bottom: 5rem;
+                        margin-left: -2.5rem;
+                        width: 6rem;
+                        height: 6rem;
+                        border: 0.2rem solid #fff;
+                        border-radius: 50%;
+                        color: #F4D03F;
+                        line-height: 6rem;
+                        text-align: center;
+                        transition: all 0.3s ease-in-out;
+                        .iconfont{
+                            animation: big 1s ease-in-out infinite;
+                            font-size: 2rem;
+                            font-weight: 700;
+                        }
+                    }
+                    .page-down:hover{
+                        background: grey;
+                        .iconfont{
+                            @keyframes big {
+                                0%{
+                                    font-size: 2rem
+                                }
+                                50%{
+                                    font-size: 3rem
+                                }
+                                100%{
+                                    font-size: 2rem
+                                }
+                            }
+                        }
+                    }
+                }
+                .page-two{
+                    background:linear-gradient(to bottom, #6f7275 0%, #31353a 100%);
+                    width: 100%;
+                    height: 100%;
+                    .page-two-content{
+                        padding: 200px 100px;
+                        .page-two-title{
+                            
+                            margin-bottom: 50px;
+                            color: #aaa;
+                        }
+                        .single-info-details{
+                            width: 100%;
+                            height: 200px;
+                            display: flex;
+                            justify-content: space-around;
+                            margin-top: 50px;
+                            .single-infos{
+                                position: relative;
+                                width: 180px;
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                .single-info-icon{
+                                    width: 100px;
+                                    height: 100px;
+                                    border-radius: 50%;
+                                    text-align: center;
+                                    line-height: 100px;
+                                    background: #474b4f;
+                                    transform: scale(1);
+                                    transition: transform  0.5s ease-in-out;
+                                    .iconfont{
+                                        color: #aaa;
+                                        font-size: 30px;
+                                    }
+                                }
+                                .single-info-item{
+                                    position: absolute;
+                                    bottom: 10px;
+                                    width: 100%;
+                                    text-align: center;
+                                    .single-info-item1{
+                                        margin-bottom: 10px;
+                                        color: #F4D03F;
+                                        font-size: 18px;
+                                        font-weight: bold;
+                                    }
+                                    .single-info-item2{
+                                        line-height: 24px;
+                                        color: #aaa;
+                                        font-family: sans-serif
+                                    }
+                                }
+                                .single-info-icon:hover{
+                                    transform: scale(1.2);
+                                    .iconfont{
+                                        color: #F4D03F;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .page-three{
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%);
+                    .page-three-content{
+                        width: 100%;
+                        height: 100%;
+                        padding: 100px;
+                        box-sizing: border-box;
+                        .page-three-title{
+                            height: 50px;
+                            line-height: 50px;
+                            font-size: 30px;
+                            color: limegreen;
+                            font-weight: 700;
+                        }
+                        .text-14{
+                            letter-spacing: 1px;
+                        }
+                        .page-three-tech{
+                            width: 100%;
+                            height: 400px;
+                            display: flex;
+                            .tech-show{
+                                width: 500px;    
+                                .outer-circle{
+                                    position: relative;
+                                    width: 100%;
+                                    height: 400px;
+                                    .outer-circle-list{
+                                        position: absolute;
+                                        width: 300px;
+                                        height: 300px;
+                                        left: 50%;
+                                        top: 50%;
+                                        margin-top: -150px;
+                                        margin-left: -150px;
+                                        border: 1px dashed #aaa;
+                                        border-radius: 50%;
+                                        animation: turn1 10s linear infinite;
+                                        @keyframes turn1 {
+                                            0%{
+                                                transform: rotateZ(0deg);
+                                            }
+                                            100%{
+                                                transform: rotateZ(360deg);
+                                            }
+                                        }
+                                        .outer-circle-item{
+                                            position: absolute;
+                                            left: 50%;
+                                            top: 50%;
+                                            margin-left: -25px;
+                                            margin-top: -25px;
+                                            width: 50px;
+                                            height: 50px;
+                                            border-radius: 50%;
+                                            text-align: center;
+                                            line-height: 50px;
+                                            span{
+                                                display: inline-block;
+                                                width: 100%;
+                                                height: 100%;
+                                                font-size: 10px;
+                                                color: #fff;
+                                            }
+                                        }
+
+                                    }
+                                    .inner-circle-list{
+                                        position: absolute;
+                                        width: 200px;
+                                        height: 200px;
+                                        left: 50%;
+                                        top: 50%;
+                                        margin-top: -100px;
+                                        margin-left: -100px;
+                                        border: 1px dashed #aaa;
+                                        border-radius: 50%;
+                                        animation: turn2 10s linear infinite;
+                                            @keyframes turn2 {
+                                                0%{
+                                                    transform: rotateZ(360deg);
+                                                }
+                                                100%{
+                                                    transform: rotateZ(0deg);
+                                                }
+                                            }
+                                        .inner-circle-item{
+                                            position: absolute;
+                                            left: 50%;
+                                            top: 50%;
+                                            margin-left: -20px;
+                                            margin-top: -20px;
+                                            width: 40px;
+                                            height: 40px;
+                                            border-radius: 50%;
+                                            text-align: center;
+                                            line-height: 40px;
+                                            
+                                            span{
+                                                display: inline-block;
+                                                width: 100%;
+                                                height: 100%;
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+                            .tech-cont{
+                                flex: 1;
+                                canvas{
+                                    margin-left: 200px
+                                }
+                            }
+                        }
+                    }
+                }
+                .page-four{
+                    width: 100%;
+                    height: 100%;
+                    .page-four-content{
+                        width: 100%;
+                        height: 100%;
+                        padding: 100px;
+                        box-sizing: border-box;
+                        .page-four-title{
+                            color:darkorchid;
+                            font-size: 30px;
+                            font-weight: 700;
+                        }
+                        .page-four-demo{
+                            width: 100%;
+                            .page-four-list{
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-around;
+                                .page-four-item{
+                                    position: relative;
+                                    width: 150px;
+                                    height: 200px;
+                                    margin: 20px;
+                                    border-radius: 10px;
+                                    box-shadow: 5px 5px 10px red;
+                                    // transform-style: preserve-3d;
+                                    .page-item-wrapper{
+                                        width: 100%;
+                                        height: 100%;
+                                        border-radius: 10px;
+                                        .page-four-single1,.page-four-single2{
+                                            position: absolute;
+                                            left: 0;
+                                            top: 0;
+                                            border-radius: 10px;
+                                            width: 100%;
+                                            height: 100%;
+                                            background: red;
+                                        }
+                                        .page-four-single2{
+                                            text-align: center;
+                                            background: #fff;
+                                            padding: 5px;
+                                            box-sizing: border-box;
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
