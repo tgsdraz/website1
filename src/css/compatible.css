@@ -24,11 +24,11 @@
 }
 
 .item-wrapper-trans0 {
-    -webkit-transition: transform 0.8s ease-in-out;
-    -moz-transition: transform 0.8s ease-in-out;
-    -ms-transition: transform 0.8s ease-in-out;
-    -o-transition: transform 0.8s ease-in-out;
-    transition: transform 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;

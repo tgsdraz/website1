@@ -42,3 +42,18 @@ drawObj.drawArea()
 //项目案例
 var projectObj = require('../js/projects.js')
 projectObj.reserve();
+
+//PAGE-5
+var pageFiveObj = require('./autoKeys.js')
+pageFiveObj.auto()
+
+//order
+var bindObj = require('./order.js')
+// bindObj.scroll()
+// bindObj.bindEvent()
+
+
+//鼠标事件
+var mouseObj = require('./scroll.js')
+mouseObj.scroll()
+mouseObj.bindEvent()
