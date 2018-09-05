@@ -3,7 +3,7 @@ module.exports = {
     output : {
         filename : '[name].js',
         path : __dirname + '/out',
-        publicPath: 'http://localhost:8080/out',//添加静态资源, 否则会出现路径错误
+        publicPath: '/out/',//添加静态资源, 否则会出现路径错误
     },
     module : {
         rules: [
@@ -14,5 +14,5 @@ module.exports = {
             {test: /.less$/, use: ['style-loader', 'css-loader', 'less-loader']}/*解析less, 把less解析成浏览器可以识别的css语言*/
         ]
     },
-    mode:'development'
+    mode:'production'
 }

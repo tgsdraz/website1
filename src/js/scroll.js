@@ -23,8 +23,8 @@ module.exports = (function($){
                             $('.order-item').eq(self.index).addClass('select').siblings().removeClass('select')
                             if(self.index == self.len){
                                 // continue
-                                $('.content-wrapper').css('top',-self.index * self.liH)
-                                self.index = 3
+                                // $('.content-wrapper').css('top',-self.index * self.liH)
+                                // self.index = 3
                             }
                             self.flag = true
                         })
@@ -33,6 +33,7 @@ module.exports = (function($){
                         console.log(self.index)
                         $('.content-wrapper').animate({top:$('.content-wrapper').offset().top+ self.liH},1000,
                         function(){
+                            $('.order-item').eq(self.index).addClass('select').siblings().removeClass('select')
                             self.flag = true
                         })
                     }
