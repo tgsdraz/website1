@@ -56,4 +56,6 @@ var bindObj = require('./order.js')
 //鼠标事件
 var mouseObj = require('./scroll.js')
 mouseObj.scroll()
+// mouseObj.scroll1()
 mouseObj.bindEvent()
+mouseObj.clickBtn()
